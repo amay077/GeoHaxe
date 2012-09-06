@@ -1,2 +1,9 @@
--neko mytest.n 
--main MyTest
+# add source directories
+-cp src/ 
+-cp test/
+
+# set main() class
+-main GeoHexTestRunner
+
+# build neko and run
+-x bin/GeoHexTestRunner

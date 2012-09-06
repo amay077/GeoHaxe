@@ -3,7 +3,7 @@ package net.geohex;
 import net.geohex.GeoHex;
 import net.geohex.GeoHex.Zone;
 
-class HelloTest extends haxe.unit.TestCase {
+class GeoHexTest extends haxe.unit.TestCase {
 
 	public function testBasic() {
 		var geohex = new GeoHex();
